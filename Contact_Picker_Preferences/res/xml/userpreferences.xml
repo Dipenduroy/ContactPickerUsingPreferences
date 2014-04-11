@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+                      
+
+  <ListPreference
+    android:key="PREF_NAME_LEN"
+    android:title="Name Length"
+    android:summary="Select legth of name to display"
+    android:entries="@array/name_length"
+    android:entryValues="@array/name_length_val"
+    android:dialogTitle="NameLength"
+    android:defaultValue="5"
+  />
+</PreferenceScreen>
